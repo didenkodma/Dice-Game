@@ -1,0 +1,45 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* font-family: 'Lobster', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* font-family: 'Indie Flower', cursive; */
+
+body {
+   background-color: #393e46;
+   text-align: center;
+   font-family: "Indie Flower", cursive;
+   color: #4ecca3;
+}
+.invisible {
+   display: none;
+}
+h1 {
+   font-family: "Lobster", cursive;
+   font-size: 8rem;
+   text-shadow: 5px 0 #232931;
+   color: #4ecca3;
+   margin: 0px;
+   display: inline-block;
+}
+.h1 {
+   margin: 40px;
+}
+.content {
+   display: flex;
+   justify-content: center;
+   font-size: 2rem;
+}
+.content img {
+   width: 70%;
+}
+.footer {
+   margin-top: 10%;
+}
+.footer__text {
+   color: #eeeeee;
+}
+.footer__text i {
+   font-size: 1.2rem;
+}
