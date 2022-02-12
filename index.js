@@ -5,8 +5,8 @@ if (window.sessionStorage.refreshed === "true") {
 
    winChange(playerOneNumb, playerTwoNumb);
 
-   document.querySelector(".img1").setAttribute("src", "/images/dice" + playerOneNumb + ".png");
-   document.querySelector(".img2").setAttribute("src", "/images/dice" + playerTwoNumb + ".png");
+   document.querySelector(".img1").setAttribute("src", "images/dice" + playerOneNumb + ".png");
+   document.querySelector(".img2").setAttribute("src", "images/dice" + playerTwoNumb + ".png");
 
 
 } else {
